@@ -9,7 +9,3 @@ export default makeStyles(()=>({
     }
 
 }));
-// moti moti akhiyon se tu mujhko hi to tadde
-//dek menu lagta sar phira, manna mere surut ki hain chaandi so takka sonee,dil mera ye tuzpe mar mita
-//ye meri chaand baliyaan dikha ke  tuzko paa liyaa x3
-// sochne ka mauka hai diya abse tu hai mera hi piya

@@ -1,6 +1,8 @@
 import react from 'react';
-import {Grid} from '@material-ui/core';
+import {formatMs, Grid, Snackbar} from '@material-ui/core';
 import Main from './components/Main/Main';
+import { PushToTalkButton,PushToTalkButtonContainer,ErrorPanel} from '@speechly/react-ui';
+
 import Details from './components/Details/Details';
 import useStyles from './styles';
 const App=()=>{
@@ -17,6 +19,10 @@ const App=()=>{
                 <Grid item xs={12} sm={4}>
                     <Details title="Expense"/>
                 </Grid>
+                <PushToTalkButtonContainer>
+                    <PushToTalkButton/>
+                    <ErrorPanel/>
+                </PushToTalkButtonContainer>
 
             </Grid>
         </div>
@@ -26,3 +32,9 @@ const App=()=>{
 }
 
 export default App;
+
+
+//fault in app.js
+// and formatMs.jsx when we add Snackbar
+// and details.jsx for dougnut
+// forms gets invisible
